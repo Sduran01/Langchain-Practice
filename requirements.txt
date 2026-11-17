@@ -4,3 +4,4 @@ langsmith
 python-dotenv
 langchain-openai
 langchain-tavily
+openevals
