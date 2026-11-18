@@ -43,6 +43,10 @@ future availability or legal load feasibility.
 class State(TypedDict):
     messages: Annotated[list, add_messages]
 
+# class DispatchAgent:
+#     def __init__(self):
+
+
 def dispatch_agent():
     # 1. Initialize the model
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)

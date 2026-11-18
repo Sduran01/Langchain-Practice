@@ -1,8 +1,6 @@
 from langsmith import Client
-from evaluation_dataset import evaluation_data
-from dotenv import load_dotenv
-
-load_dotenv()
+from evaluation.evaluation_dataset import evaluation_data
+import config
 
 def main():
     client = Client()
